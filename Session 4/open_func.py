@@ -1,0 +1,8 @@
+test_file = open('test.txt')
+text = test_file.read()
+print(text)
+test_file_write = open('test.txt', 'w')
+test_file_write.write('this is my test file')
+test_file_write.close()
+test_file_updated = open('test.txt')
+print(test_file_updated.read())
