@@ -5,8 +5,8 @@
 class Things:
     def __init__(self, name, animate):
         print('A new thing was constructed!!')
-        print('It is called %s!' % self.name)
-        if self.animate:
+        print('It is called %s!' % name)
+        if animate:
             print('It is a living-thing!')
         else:
             print('It is a non-living thing!')
