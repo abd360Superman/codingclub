@@ -1,4 +1,3 @@
-'''
 shopping_list = {'bear legs': 100,
                  'eye of newt': 200,
                  'mandrake': 50,
@@ -8,7 +7,7 @@ shopping_list = {'bear legs': 100,
 
 print(shopping_list)
 print(shopping_list['spider burp'])
-'''
+
 #A Dictionary can store a Dictionary within itself!
 
 nested_shopping_list = {'bear legs': {'price': 100, 'store': 'Shop BL'},
