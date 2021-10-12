@@ -1,4 +1,4 @@
-'''num1 = '7'
+num1 = '7'
 num2 = '7'
 print(num1+num2)
 
@@ -17,7 +17,7 @@ print(int(pi))
 
 print('I am ' + str(7) + ' years old')
 print('The value of pi is ' + str(3.14159))
-'''
+
 i = 6
 print(i)
 print(float(i))
